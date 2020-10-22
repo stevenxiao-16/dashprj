@@ -1,0 +1,26 @@
+#Header{background-color:rgb(24, 24, 26);
+              color:white;
+              text-align:center;
+              padding:5px;}
+
+ #pic{       background-color:rgb(24, 24, 26);
+                height:500px;
+                width:880px;
+                float:left;
+                padding:5px;}
+#Opera{
+                background-color:rgb(24, 24, 26);
+                color:white;
+                height:500px;
+                width:auto;
+                text-align:left;
+                padding:5px;}
+#footer{
+                background-color:rgb(24, 24, 26);
+                color:white;
+                text-align:center;
+                padding:3px;
+            }
+.btn{
+                background-color: cyan;
+            }
