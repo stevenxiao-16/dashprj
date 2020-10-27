@@ -40,10 +40,10 @@ app.layout = html.Div(style={'backgroundColor':colors['background']}, children=[
     html.Div(children='Please select a date',style={'height':"500",'width':"auto",'backgroundColor':colors['background'],'color':colors['text'],'padding':'5px'}),
     html.Div([dcc.DatePickerSingle(
         id='my-date-picker-single',
-        date=date(2020, 10, 21)
+        date=date(2020, 10, 21),style={'padding':'5px'}
     ),
     html.Span(id='output-container-date-picker-single',style={'color':colors['text'],'textAlign':'center','padding':'8px'})]),
-    html.Button('Show Topics',id='btn'),
+    html.Button('Show Topics',id='btn',style={'padding':'5px'}),
 
     html.Div(dcc.Graph(id='example-graph',figure=fig),style={'width':"860",'height':"500",'backgroundColor':colors['background'],'padding':'5px'}),
 
