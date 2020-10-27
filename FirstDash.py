@@ -2,7 +2,7 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-import plotly_express as px
+import plotly.express as px
 import pandas as pd
 from datetime import date
 from dash.dependencies import Input, Output
